@@ -39,24 +39,23 @@ function accessElementInArray(array) {
 
 function destructivelyRemoveElementFromBeginningOfArray(array) {
 
-  var array = [ 1, 2, 3 ]
+  var array = [1, 2, 3]
   array.shift()
   return array
-}
-
-
-function removeElementFromBeginningOfArray(array) {
-
-  var array = [1, 2, 3]
-  array = array.slice(1)
-  return array
-
 }
 
 function destructivelyRemoveElementFromEndOfArray(array) {
 
   var array = [1, 2, 3]
   array.pop()
+  return array
+
+}
+
+function removeElementFromBeginningOfArray(array) {
+
+  var array = [1, 2, 3]
+  array = array.slice(1)
   return array
 
 }
