@@ -41,13 +41,13 @@ function destructivelyRemoveElementFromBeginningOfArray(array) {
 
   var array = [1, 2, 3]
   array.shift()
-
+  return array
 }
 
 function destructivelyRemoveElementFromEndOfArray(array) {
 
   var array = [1, 2, 3]
-  array.pop(3)
+  array.pop()
   return array
 
 }
